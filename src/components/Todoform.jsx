@@ -9,7 +9,7 @@ function Todoform({Addtask}) {
     }
   return (
     <div className='dd'>
-        <input type="text" value={input} onChange={(e)=>{setinput(e.target.value)}} />
+        <input type="text" value={input} placeholder="enter your task" onChange={(e)=>{setinput(e.target.value)}} />
         <button onClick={handlesumbit}>add</button>
     </div>
   )
